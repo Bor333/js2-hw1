@@ -14,6 +14,7 @@ const renderProduct = item => {
                 <button class="buy-btn"><span class="button-text">Купить</span></button>
             </div>`
 };
+
 const renderPage = list => {
     const productsList = list.map(item => renderProduct(item)).join("");
     // Запятые появлялись, потому что метод map создает массив, который выводится вместе с разделяющими запятыми
